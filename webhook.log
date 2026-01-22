@@ -61,3 +61,102 @@
   ]
 }
 
+2026-01-15T21:53:48+01:00 {
+  "entry": [
+    {
+      "changes": [
+        {
+          "value": {
+            "messages": [
+              {
+                "from": "5491112345678",
+                "text": {
+                  "body": "hola"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+2026-01-15T22:13:23+01:00 {
+  "entry": [
+    {
+      "changes": [
+        {
+          "value": {
+            "messages": [
+              {
+                "from": "5491112345678",
+                "text": {
+                  "body": "hola"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+
+2026-01-15T22:52:08+01:00 
+2026-01-15T23:24:08+01:00 {"entry":[{"changes":[{"value":{"messages":[{"from":"15551234567","text":{"body":"hola"}}]}}]}]}
+2026-01-16T00:04:45+01:00 
+2026-01-16T00:05:13+01:00 {"entry":[{"changes":[{"value":{"messages":[{"from":"15551234567","text":{"body":"hola"}}]}}]}]}
+2026-01-16 00:18:17 [ENTRADA]: {"object":"whatsapp_business_account","entry":[{"id":"0","changes":[{"field":"messages","value":{"messaging_product":"whatsapp","metadata":{"display_phone_number":"16505551111","phone_number_id":"123456123"},"contacts":[{"profile":{"name":"test user name"},"wa_id":"16315551181"}],"messages":[{"from":"16315551181","id":"ABGGFlA5Fpa","timestamp":"1504902988","type":"text","text":{"body":"this is a text message"}}]}}]}]}
+2026-01-16 00:18:18 [SALIDA] Para: 16315551181 | HTTP_CODE: 400 | Respuesta: {"error":{"message":"(#131030) Recipient phone number not in allowed list","type":"OAuthException","code":131030,"error_data":{"messaging_product":"whatsapp","details":"El n\u00famero de tel\u00e9fono del destinatario no est\u00e1 en la lista de autorizados: Agrega el n\u00famero de tel\u00e9fono del destinatario a la lista de destinatarios y vuelve a intentarlo."},"fbtrace_id":"AU8tLVddDNtpx1d7Mnz9Xgf"}}
+2026-01-16 00:19:36 [ENTRADA]: {"object":"whatsapp_business_account","entry":[{"id":"0","changes":[{"field":"messages","value":{"messaging_product":"whatsapp","metadata":{"display_phone_number":"16505551111","phone_number_id":"123456123"},"contacts":[{"profile":{"name":"test user name"},"wa_id":"16315551181"}],"messages":[{"from":"16315551181","id":"ABGGFlA5Fpa","timestamp":"1504902988","type":"text","text":{"body":"this is a text message"}}]}}]}]}
+2026-01-16 00:19:37 [SALIDA] Para: 16315551181 | HTTP_CODE: 400 | Respuesta: {"error":{"message":"(#131030) Recipient phone number not in allowed list","type":"OAuthException","code":131030,"error_data":{"messaging_product":"whatsapp","details":"El n\u00famero de tel\u00e9fono del destinatario no est\u00e1 en la lista de autorizados: Agrega el n\u00famero de tel\u00e9fono del destinatario a la lista de destinatarios y vuelve a intentarlo."},"fbtrace_id":"A561xI_V-x5Ie9qnPRUYBF9"}}
+2026-01-16 00:20:50 [ENTRADA]: {"object":"whatsapp_business_account","entry":[{"id":"0","changes":[{"field":"messages","value":{"messaging_product":"whatsapp","metadata":{"display_phone_number":"16505551111","phone_number_id":"123456123"},"contacts":[{"profile":{"name":"test user name"},"wa_id":"16315551181"}],"messages":[{"from":"16315551181","id":"ABGGFlA5Fpa","timestamp":"1504902988","type":"text","text":{"body":"this is a text message"}}]}}]}]}
+2026-01-16 00:20:50 [SALIDA] Para: 16315551181 | HTTP_CODE: 400 | Respuesta: {"error":{"message":"(#131030) Recipient phone number not in allowed list","type":"OAuthException","code":131030,"error_data":{"messaging_product":"whatsapp","details":"El n\u00famero de tel\u00e9fono del destinatario no est\u00e1 en la lista de autorizados: Agrega el n\u00famero de tel\u00e9fono del destinatario a la lista de destinatarios y vuelve a intentarlo."},"fbtrace_id":"ARKqXIGveCaQF8ofyjtltNj"}}
+2026-01-16 00:38:37 [ENTRADA]: {
+  "entry": [
+    {
+      "changes": [
+        {
+          "value": {
+            "messages": [
+              {
+                "from": "5491112345678",
+                "text": {
+                  "body": "hola"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+
+2026-01-16 00:38:37 [SALIDA] Para: 541112345678 | HTTP_CODE: 400 | Respuesta: {"error":{"message":"(#131030) Recipient phone number not in allowed list","type":"OAuthException","code":131030,"error_data":{"messaging_product":"whatsapp","details":"El n\u00famero de tel\u00e9fono del destinatario no est\u00e1 en la lista de autorizados: Agrega el n\u00famero de tel\u00e9fono del destinatario a la lista de destinatarios y vuelve a intentarlo."},"fbtrace_id":"A7EoKfTpr6KIq4YuX4Rw6KK"}}
+2026-01-16 00:41:22 [ENTRADA]: {
+  "entry": [
+    {
+      "changes": [
+        {
+          "value": {
+            "messages": [
+              {
+                "from": "5491112345678",
+                "text": {
+                  "body": "hola"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+
+2026-01-16 00:41:22 [SALIDA] Para: 541112345678 | HTTP_CODE: 400 | Respuesta: {"error":{"message":"(#131030) Recipient phone number not in allowed list","type":"OAuthException","code":131030,"error_data":{"messaging_product":"whatsapp","details":"El n\u00famero de tel\u00e9fono del destinatario no est\u00e1 en la lista de autorizados: Agrega el n\u00famero de tel\u00e9fono del destinatario a la lista de destinatarios y vuelve a intentarlo."},"fbtrace_id":"AVr1ELBQIwxoQlbTCaofcGb"}}
+2026-01-16 00:41:41 [ENTRADA]: {"object":"whatsapp_business_account","entry":[{"id":"0","changes":[{"field":"messages","value":{"messaging_product":"whatsapp","metadata":{"display_phone_number":"16505551111","phone_number_id":"123456123"},"contacts":[{"profile":{"name":"test user name"},"wa_id":"16315551181"}],"messages":[{"from":"16315551181","id":"ABGGFlA5Fpa","timestamp":"1504902988","type":"text","text":{"body":"this is a text message"}}]}}]}]}
+2026-01-16 00:41:41 [SALIDA] Para: 16315551181 | HTTP_CODE: 400 | Respuesta: {"error":{"message":"(#131030) Recipient phone number not in allowed list","type":"OAuthException","code":131030,"error_data":{"messaging_product":"whatsapp","details":"El n\u00famero de tel\u00e9fono del destinatario no est\u00e1 en la lista de autorizados: Agrega el n\u00famero de tel\u00e9fono del destinatario a la lista de destinatarios y vuelve a intentarlo."},"fbtrace_id":"AxsLRPDRFz49tRYQEoG9KES"}}
